@@ -1,0 +1,150 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  body header {
+    margin: 0 auto; }
+    body header nav {
+      font-family: "tox_typewriterregular";
+      margin-bottom: 20px;
+      font-size: 20px; }
+      body header nav #expand {
+        width: 40px;
+        cursor: pointer; }
+      body header nav div ul li a {
+        color: #387c97; }
+    body header h1 {
+      font-family: "tox_typewriterregular";
+      font-size: 80px;
+      color: rgba(25, 80, 112, 0.8);
+      margin: 0;
+      max-width: 1440px; }
+  body #about {
+    padding: 20px; }
+    body #about h2 {
+      font-family: "tox_typewriterregular";
+      font-size: 50px;
+      color: #630023;
+      margin: 0; }
+  body section section {
+    background-color: rgba(244, 244, 244, 0.14);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    text-align: justify;
+    margin: 15px; }
+    body section section img#todos {
+      width: 350px;
+      margin-left: 10px;
+      float: right;
+      border-radius: 10px 10px 10px 10px;
+      -moz-border-radius: 10px 10px 10px 10px;
+      -webkit-border-radius: 10px 10px 10px 10px; }
+    body section section img#portada {
+      width: 300px;
+      margin-right: 10px;
+      float: left;
+      border-radius: 10px 10px 10px 10px;
+      -moz-border-radius: 10px 10px 10px 10px;
+      -webkit-border-radius: 10px 10px 10px 10px; }
+    body section section h3 {
+      font-family: "tox_typewriterregular";
+      font-size: 40px;
+      color: #630023;
+      margin: 0;
+      text-shadow: 0.5px 1px black; }
+    body section section div {
+      border-radius: 20px 20px 20px 20px;
+      -moz-border-radius: 20px 20px 20px 20px;
+      -webkit-border-radius: 20px 20px 20px 20px;
+      border: 0px solid #000000;
+      font-family: "Source Serif Pro", serif;
+      padding-top: 30px;
+      color: transparent;
+      text-shadow: 0.5px 1px black; }
+      body section section div h4 {
+        text-shadow: 0.5px 1px black; }
+  body section aside {
+    background-color: rgba(244, 244, 244, 0.14);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    font-family: "Source Serif Pro", serif;
+    text-align: justify;
+    margin: 15px;
+    padding-bottom: 20px; }
+    body section aside h3 {
+      font-family: "tox_typewriterregular";
+      font-size: 40px;
+      color: #630023;
+      margin: 0;
+      text-shadow: 0.5px 1px black;
+      text-align: center;
+      margin-bottom: 10px; }
+    body section aside img {
+      width: 70px;
+      align-items: center;
+      text-align: center; }
+    body section aside #spotify {
+      width: 80px;
+      justify-items: center;
+      margin: 0 auto; }
+    body section aside #youtube {
+      width: 100px; }
+    body section aside #facebook {
+      width: 80px; }
+    body section aside #twitter {
+      width: 80px; }
+    body section aside #instagram {
+      width: 80px; }
+
+body {
+  background-image: url("../media/imgs/DSC_3329.JPG"); }
+  body header {
+    padding-bottom: 1px;
+    background-color: rgba(0, 0, 0, 0); }
+    body header nav div h1 {
+      color: #720026;
+      font-size: 70px;
+      text-shadow: 1px 1px 1px black; }
+    body header nav ul li a {
+      color: #720026;
+      font-size: 20px;
+      text-decoration: none;
+      -webkit-transition: color 0.2s; }
+    body header nav ul li a:hover {
+      color: black;
+      text-decoration: none;
+      transition: color 0.2s; }
+  body h2 {
+    color: #720026;
+    font-size: 35px;
+    font-family: "tox_typewriterregular";
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 10px; }
+  body section div #portada {
+    width: 600px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: width 1s; }
+  body section div #portada:hover {
+    width: 620px;
+    transition: width 1s; }
+  body #streaming {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    body #streaming div a {
+      width: 100px; }
+    body #streaming div img {
+      width: 80px;
+      transition: width 1s; }
+    body #streaming div img:hover {
+      width: 90px;
+      transition: width 1s; }
+    body #streaming div .col-xs-auto {
+      width: 100px; }
+
+/*# sourceMappingURL=home.css.map */

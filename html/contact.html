@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vuelve Zinc Web Oficial</title>
+    <link href="../css/fonts/fonts.css" rel="stylesheet">
+    <link href="../css/fonts2/fonts2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/_basics.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--header-->
+    <header class="container-fluid w-100">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1 class="col-xs-3 col-sm-7 col-md-7 col-lg-6 text-center text-sm-left text-md-center">Vuelve Zinc</h1>
+            <button class="col-sm-3 col-md-5 col-lg-6 justify-content-end navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" >
+                <span><img id="expand" src="../media/expand-button.png"></span>
+            </button>
+            <div class= "justify-content-around collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="justify-content-between row navbar-nav">
+                    <li class="col-2 col-lg-2">
+                        <a href="home.html">Inicio<span class="sr-only"></span></a>
+                    </li>
+                    <li class="col-2 col-lg-2">
+                        <a href="about.html">About <span class="sr-only"></span></a>
+                    </li>
+                    <li class="col-2 col-lg-2">
+                        <a target="_blank" href="https://vuelvezinc.bandcamp.com/">Música <span class="sr-only"></span></a>
+                    </li>
+                    <li class="col-2 col-lg-2">
+                        <a href="#">Media <span class="sr-only"></span></a>
+                    </li>
+                    <li class="col-2 col-lg-2">
+                        <a href="contact.html">Contacto <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <form id="baseform" class="needs-validation" novalidate>
+        <div id="formu" class="row text-left">
+            <div class="offset-1 col-xs-4 col-6">
+                <h2>Formulario</h2>
+            </div>
+        </div>
+        <br>
+        <div class="form-row justify-content-start">
+            <div class="offset-lg-1 offset-md-1 col-xs-3 col-sm-4 col-md-3 mb-3">
+                <label class="text" for="validationCustom01">Nombre</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+                <div class="invalid-feedback">
+                Escribe tu nombre
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-4 col-md-3 mb-3">
+                <label for="validationCustom02">Apellidos</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+                <div class="invalid-feedback">
+                Escribe tu apellido
+                </div>
+            </div>
+            <div class="col-xs-3 col-sm-4 col-md-3 mb-3">
+                <label for="validationCustomUsername">Email</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="nombre@email.com" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Introduce un email para que respondamos
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 offset-md-1 mb-3">
+                <label for="validationCustom03">Asunto</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="Asunto" required>
+                <div class="invalid-feedback">
+                    Introduce algun asunto
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-md-10 form-group">
+                <label for="message-text">Mensaje:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="offset-1 col-6 form-check">
+                <button class="button" type="submit">Enviar</button>
+            </div>
+        </div>
+    </form>
+    <div id="filafinal" class="row justify-content-around">
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+            <h2>RRSS</h2>
+            <div id="cajaRedes" class="row justify-content-around">
+                <div class="col-3">
+                    <img class="img-fluid" id="instagram" src="../media/instagram.png" alt="instagram">
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" id="facebook" src="../media/facebook.png" alt="facebook">
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" id="youtube" src="../media/youtube.png" alt="youtube">
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" id="twitter" src="../media/twitter.png" alt="twitter">
+                </div>
+            </div>
+        </div>
+        <aside class="col-xs-12 col-sm-4 col-md-4">
+            <h2 id="tituloCaja">Contacto</h2>
+            <div class="card">
+                <div class="card-body">
+                    <h5>Dirección</h5>
+                    <p class="card-text">Email: vuelvezinc@gmail.com // info@vuelvezinc.com</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer class="" id="footer">
+        <nav class="navbar w-100">
+            <ul class="row justify-content-around">
+                <li class="col-4">
+                    <a href="#">FAQS <span class="sr-only"></span></a>
+                </li>
+                <li class="col-8">
+                    <a href="#">Legal <span class="sr-only"></span></a>
+                </li>
+            </ul>
+        </nav>
+    </footer> 
+</body>
+</html>

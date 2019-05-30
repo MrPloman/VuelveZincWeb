@@ -1,0 +1,119 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  body header {
+    margin: 0 auto; }
+    body header nav {
+      font-family: "tox_typewriterregular";
+      margin-bottom: 20px;
+      font-size: 20px; }
+      body header nav #expand {
+        width: 40px;
+        cursor: pointer; }
+      body header nav div ul li a {
+        color: #387c97; }
+    body header h1 {
+      font-family: "tox_typewriterregular";
+      font-size: 80px;
+      color: rgba(25, 80, 112, 0.8);
+      margin: 0;
+      max-width: 1440px; }
+  body #about {
+    padding: 20px; }
+    body #about h2 {
+      font-family: "tox_typewriterregular";
+      font-size: 50px;
+      color: #630023;
+      margin: 0; }
+  body section section {
+    background-color: rgba(244, 244, 244, 0.14);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    text-align: justify;
+    margin: 15px; }
+    body section section img#todos {
+      width: 350px;
+      margin-left: 10px;
+      float: right;
+      border-radius: 10px 10px 10px 10px;
+      -moz-border-radius: 10px 10px 10px 10px;
+      -webkit-border-radius: 10px 10px 10px 10px; }
+    body section section img#portada {
+      width: 300px;
+      margin-right: 10px;
+      float: left;
+      border-radius: 10px 10px 10px 10px;
+      -moz-border-radius: 10px 10px 10px 10px;
+      -webkit-border-radius: 10px 10px 10px 10px; }
+    body section section h3 {
+      font-family: "tox_typewriterregular";
+      font-size: 40px;
+      color: #630023;
+      margin: 0;
+      text-shadow: 0.5px 1px black; }
+    body section section div {
+      border-radius: 20px 20px 20px 20px;
+      -moz-border-radius: 20px 20px 20px 20px;
+      -webkit-border-radius: 20px 20px 20px 20px;
+      border: 0px solid #000000;
+      font-family: "Source Serif Pro", serif;
+      padding-top: 30px;
+      color: transparent;
+      text-shadow: 0.5px 1px black; }
+      body section section div h4 {
+        text-shadow: 0.5px 1px black; }
+  body section aside {
+    background-color: rgba(244, 244, 244, 0.14);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    font-family: "Source Serif Pro", serif;
+    text-align: justify;
+    margin: 15px;
+    padding-bottom: 20px; }
+    body section aside h3 {
+      font-family: "tox_typewriterregular";
+      font-size: 40px;
+      color: #630023;
+      margin: 0;
+      text-shadow: 0.5px 1px black;
+      text-align: center;
+      margin-bottom: 10px; }
+    body section aside img {
+      width: 70px;
+      align-items: center;
+      text-align: center; }
+    body section aside #spotify {
+      width: 80px;
+      justify-items: center;
+      margin: 0 auto; }
+    body section aside #youtube {
+      width: 100px; }
+    body section aside #facebook {
+      width: 80px; }
+    body section aside #twitter {
+      width: 80px; }
+    body section aside #instagram {
+      width: 80px; }
+
+body {
+  background-image: url("../media/portada2.png"); }
+  body header {
+    background-color: rgba(68, 1, 23, 0.76); }
+  body footer {
+    width: 100%; }
+    body footer .navbar {
+      background-color: rgba(68, 1, 23, 0.76);
+      font-family: "tox_typewriterregular";
+      margin-top: 20px;
+      font-size: 15px;
+      justify-content: center;
+      padding-top: 30px; }
+      body footer .navbar a {
+        color: #387c97; }
+
+/*# sourceMappingURL=about.css.map */
